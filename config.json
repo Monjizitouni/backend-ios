@@ -1,0 +1,4 @@
+{
+    "database" : "mongodb+srv://project:BtByMoXkgJWfeqqa@cluster0.hacye.mongodb.net/iost?authSource=admin&replicaSet=atlas-jjk6du-shard-0&w=majority&readPreference=primary&retryWrites=true&ssl=true",
+    "token_secret" : "token-secret !!"
+}
