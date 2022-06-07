@@ -13,7 +13,7 @@ const upload    = require('../middleware/upload')
  * /api/register:
  *  post:
  *      tags: [Registration]
- *      description: if you're a new user you'll have to register now
+ *      description: if you're a new user you'll have to register
  *      parameters:
  *          - in: body
  *            name: username
@@ -46,7 +46,7 @@ router.post('/register',upload.single('avatar'), AuthController.register)
  *      parameters:
  *          - in: body
  *            name: email
- *            description: the user's emails
+ *            description: the user's email
  *            required: true
  *            example: user@esprit.com
  *          - in: body
